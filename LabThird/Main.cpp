@@ -13,7 +13,7 @@ int main() {
     editor.Append(", world!");
     std::cout << editor.GetText() << "\n";
 
-    history.Push(editor.Save());
+    history.Push(editor.Save());        
     editor.SetText("New text");
     std::cout << editor.GetText() << "\n";
 

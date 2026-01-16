@@ -1,6 +1,6 @@
 #pragma once
 #include <string>
-#include "TextMemory.h"
+#include "TextMemento.h"
 
 class TextEditor {
 public:
