@@ -1,7 +1,6 @@
 #include "TextEditor.h"
 #include <utility>
 
-TextMemento::TextMemento(std::string state) : state_(std::move(state)) {}
 
 void TextEditor::SetText(const std::string& text) {
     text_ = text;
